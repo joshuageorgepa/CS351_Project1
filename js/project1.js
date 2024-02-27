@@ -15,10 +15,14 @@ function Validate() {
 	if (!ValidLength(document.signIn.pwd.value, 6)) {
 		document.getElementById("errorForPwd").style.display = "block";
 		errorFound = true;
+	} else {
+		document.getElementById("errorForPwd").style.display = "none";
 	}
 	if (!ValidEmail(document.signIn.email.value)) {
 		document.getElementById("errorForEmail").style.display = "block";
 		errorFound = true;
+	} else {
+		document.getElementById("errorForEmail").style.display = "none";
 	}
 	if (!errorFound) {
 		window.location.href = 'home.html';
