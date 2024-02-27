@@ -47,7 +47,7 @@
     <div class="container">
       <div class="row text-center">
         <div class="col-md-6 pb-1 pb-md-0">
-            <img class="card-img-top" src="Products/Product25/melefhbwkvjt.webp" alt="Card image cap">
+            <img class="card-img-top" src="Products/Product25/melefhbwkvjt.webp" alt="Product image">
         </div>
           <div class="col-md-6 col-12 text-left mt-md-0 mt-2">
 			<h4>KITCHENAID 1-Horsepower Continuous Feed Food Waste Disposer</h4>
@@ -56,9 +56,36 @@
 			<p>Features three-stage grinding that makes this disposer an ideal solution for stringy foods such as corn husks and celery. A sensor helps break through tough jams before a problem occurs.</p>
 			<h6>SoundSeal™ Plus Technology</h6>
 			<p>Makes these disposers exceptionally quiet even when grinding hard or stringy foods. The technology helps reduce noise levels by up to 60% compared to other standard disposers.</p>
-			quantity drop down
-			<br>
-            <a href="#" class="btn btn-primary" onClick="return addItemToCart();">Add to Cart</a>
+			<form>
+				<div class="form-group row">
+				  <label class="col-sm-2 col-form-label" for="quantity">Qty: </label>
+				  <select class="form-control col-sm-2" id="quantity">
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5</option>
+						<option>6</option>
+						<option>7</option>
+						<option>8</option>
+						<option>9</option>
+						<option>10</option>
+						<option>11</option>
+						<option>12</option>
+						<option>13</option>
+						<option>14</option>
+						<option>15</option>
+						<option>16</option>
+						<option>17</option>
+						<option>18</option>
+						<option>19</option>
+						<option>20</option>
+					</select>
+				</div>
+			</form>
+            <a href="#" class="btn btn-primary" 
+			   onClick="return addItemToCart(parseInt(document.getElementById('quantity').value));">
+				Add to Cart</a>
           </div>
       </div>
     </div>

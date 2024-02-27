@@ -31,7 +31,7 @@ const cart = {
 }
 
 // Function called from home, shop, and the individual product pages. 
-function addItemToCart() {
-	cart.quantity++;
+function addItemToCart(number) {
+	cart.quantity+=number;
 	document.getElementById("cartQuantity").innerHTML = cart.quantity;
 }

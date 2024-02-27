@@ -47,7 +47,7 @@
     <div class="container">
       <div class="row text-center">
         <div class="col-md-6 pb-1 pb-md-0">
-            <img class="card-img-top product-img-height" src="Products/Product3/Screenshot 2024-02-19 at 8.56.23 PM.png" alt="Card image cap">
+            <img class="card-img-top product-img-height" src="Products/Product3/Screenshot 2024-02-19 at 8.56.23 PM.png" alt="Product image">
         </div>
           <div class="col-md-6 col-12 text-left mt-md-0 mt-2">
 			<h4>LG 24 cu.ft. Top Freezer Refrigerator</h4>
@@ -61,9 +61,36 @@
 			<p>
 			Upgrade your kitchen to the next level with the LG 24 cu.ft. Top Freezer Refrigerator LRTLS2403S, available exclusively at Airport Appliance. This impressive refrigerator combines innovative features, ample storage space, and sleek design to enhance your food storage experience.
 			</p>
-			quantity drop down
-			<br>
-            <a href="#" class="btn btn-primary" onClick="return addItemToCart();">Add to Cart</a>
+			<form>
+				<div class="form-group row">
+				  <label class="col-sm-2 col-form-label" for="quantity">Qty: </label>
+				  <select class="form-control col-sm-2" id="quantity">
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5</option>
+						<option>6</option>
+						<option>7</option>
+						<option>8</option>
+						<option>9</option>
+						<option>10</option>
+						<option>11</option>
+						<option>12</option>
+						<option>13</option>
+						<option>14</option>
+						<option>15</option>
+						<option>16</option>
+						<option>17</option>
+						<option>18</option>
+						<option>19</option>
+						<option>20</option>
+					</select>
+				</div>
+			</form>
+            <a href="#" class="btn btn-primary" 
+			   onClick="return addItemToCart(parseInt(document.getElementById('quantity').value));">
+				Add to Cart</a>
           </div>
       </div>
     </div>
