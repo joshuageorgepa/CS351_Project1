@@ -1,0 +1,53 @@
+Notes: 
+1. I am using DreamWeaver Bootstrap - eCommerce Starter Template for Project 1. 
+Different styles used from Bootstrap: 
+1.1 - Navbar: 
+	- .navbar-brand: webpage logo
+	- .navbar-toggler .navbar-collapse: adjustment of the navbar on a smaller screen
+	- .navbar-dark: controls the color of the text in the navbar
+	- .bg-dark: gives a black background color to the navbar
+	(https://getbootstrap.com/docs/4.6/components/navbar/)
+1.2 - Carousel: 
+	- Slides: The .active class to one of the carousel image, makes the carousel visible. 
+			  The .d-block and .w-100 on carousel images to prevent browser default image alignment.
+	- Controls: The previous and next controls are done with <a> elements with role="button". 
+	- Indicators: Tells you which slide you are on. Done by .carousel-indicators. 
+	- Captions: Lets you see the text on the slide. Done by .carousel-caption. 
+				.d-none makes the caption invisible on the small screen. 
+				.d-md-block brings the caption back on medium-sized devices. 
+	(https://getbootstrap.com/docs/4.6/components/carousel/)
+1.3 - Bootstrap Grid System: 
+	Bootstrap's grid system allows up to 12 columns or a multiple of 12 columns across the page. 
+	It uses a series of containers, rows, and columns to layout and align content. So, you have to have a .col-*-* inside a .row inside a .container. 
+	So, I am having 28 products in shop.html because 28 is a mulitple of 4 (https://getbootstrap.com/docs/4.6/layout/grid/). 
+1.4 - Card: 
+	Using .card to display the image, title, description/price of the products on the home, shop, and the individual product pages. 
+	(https://getbootstrap.com/docs/4.6/components/card/)
+
+Things not working in my Project: 
+1. The quantity in the cart gets lost when I go to another page. 
+
+Shop Websites I looked at to see the layout: 
+1. https://www.target.com
+2. https://www.pier1.com
+3. https://www.walmart.com
+4. https://www.amazon.com
+5. https://www.jcpenney.com
+6. https://www.rei.com
+7. https://www.safeway.com
+8. https://www.gap.com
+
+Product image/description: I got the product image/descriptions from: 
+https://www.airportappliance.com
+
+Sites used for solving the problems I faced: 
+1. Form Validation: 
+http://borg.csueastbay.edu/~grewe/CS351/Mat/JavaScript/JScript4.htm
+2. Making the images the same size on the shop page and the home page: 
+https://stackoverflow.com/questions/43028189/how-can-i-make-these-images-same-size-using-bootstrap
+3. How to unhide a hidden html <p> tag element using JavaScript?: 
+https://stackoverflow.com/questions/69930183/how-to-unhide-a-hidden-html-p-tag-element-using-javascript
+4. Stop form refreshing page on submit: 
+https://stackoverflow.com/questions/19454310/stop-form-refreshing-page-on-submit
+5. How do I redirect to another webpage?: 
+https://stackoverflow.com/questions/503093/how-do-i-redirect-to-another-webpage

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en"><!-- InstanceBegin template="/Templates/Project1TemplateForNavBarFooter.dwt" codeOutsideHTMLIsLocked="false" -->
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- InstanceBeginEditable name="doctitle" -->
+    <title>Appliance Store Template Page</title>
+    <!-- InstanceEndEditable -->
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap-4.4.1.css" rel="stylesheet">
+	<!-- Project 1 CSS and JS -->
+    <link href="../css/project1.css" rel="stylesheet">
+  <!-- InstanceBeginEditable name="head" -->
+  <!-- InstanceEndEditable -->
+</head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Appliance Store</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shop.html">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="account.html">Account</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Cart <span id="cartQuantity" class="badge badge-light"></span></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+	</nav>
+    <!-- InstanceBeginEditable name="Project1EditableRegion" -->
+	
+<div class="container">
+  <h3>Sign in</h3>
+  <form name="signIn" onSubmit="return Validate()">
+    <div class="form-group row">
+      <label class="col-sm-2 col-form-label" for="email">Email *</label>
+      <div class="col-sm-10">
+        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+		  <p id="errorForEmail" name="errorForEmail" style="display: none; color: red;">Email should be at least 5 characters long with correct format! </p>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-sm-2 col-form-label" for="pwd">Password *</label>
+      <div class="col-sm-10">          
+        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+		  <p id="errorForPwd" name="errorForPwd" style="display: none; color: red;">Password should be at least 6 characters long! </p>
+      </div>
+    </div>
+    <div class="form-group row">
+      <div class="col-sm-10">
+        <button type="submit" class="btn btn-primary">Sign in</button>
+      </div>
+    </div>
+    <div class="form-group row">        
+      <div class="col-sm-10">
+        <a href="createAccount.html">Create new account</a>
+      </div>
+    </div>
+  </form>
+</div>
+	
+    
+<!-- InstanceEndEditable -->
+	
+    <hr>
+    <div class="container text-white bg-dark p-4">
+      <div class="row">
+        <div class="col-lg-12">
+          <address>
+            <strong>MyApplianceStore, Inc.</strong><br>
+            1234 Todd Ct<br>
+            Castro Valley, CA, 94546-3221<br>
+            <abbr title="Phone">P:</abbr> (650) 546-5780
+          </address>
+          <address>
+            <strong>Joshua George</strong><br>
+            <a href="mailto:jgeorge14@horizon.csueastbay.edu">jgeorge14@horizon.csueastbay.edu</a>
+          </address>
+        </div>
+      </div>
+    </div>
+    <footer class="text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <p>Copyright © 2024 MyApplianceStore, Inc. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap-4.4.1.js"></script>
+  	<script src="../js/project1.js"></script>
+  </body>
+<!-- InstanceEnd --></html>
